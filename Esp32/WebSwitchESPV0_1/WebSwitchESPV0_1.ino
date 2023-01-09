@@ -35,7 +35,7 @@ byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0x28 };   //Adresse MAC de l'ENC28J
 
 int nbRelais = 14;                   //Nombre de relais à afficher sur l'interface Web
 boolean doubleColonne = true;        //True: boutons de l'interface Web sur 2 colonnes, false: sur 1 colonne
-int pinRelais[14] = {21, 13, 16, 12, 23, 14, 17, 27, 4, 26, 15, 25, 32, 33};  //Pins de l'ESP qui commande les relais
+int pinRelais[14] = {21, 13, 16, 12, 22, 14, 17, 27, 4, 26, 15, 25, 32, 33};  //Pins de l'ESP qui commande les relais
 String nomRelais[14] =
 {
   "Relais1",                      //Nom affichés sur les bouton de l'interface Web
