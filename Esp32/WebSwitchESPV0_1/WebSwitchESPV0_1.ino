@@ -25,8 +25,8 @@
 #define WIFI //modifiez en "WIFI" ou "ETHERNET" suivant la version désirée
 
 #ifdef WIFI
-const char* ssid     = "";          //SSID de votre box
-const char* password = "";          //Mote de passe de votre box
+const char* ssid     = "VotreSSID";          //SSID de votre box
+const char* password = "VotreMotDePasse";          //Mote de passe de votre box
 #endif
 
 #ifdef ETHERNET
