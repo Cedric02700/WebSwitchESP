@@ -22,15 +22,15 @@
 /**********************************************************************************
  ***                    Variable à modifier                                     ***
  *********************************************************************************/
-#define WIFI //modifiez en "WIFI" ou "ETHERNET" suivant la version désirée
+#define ETHERNET //modifiez en "WIFI" ou "ETHERNET" suivant la version désirée
 #define TEMPO //TEMPO: temporisation 13 et 14 sinon NORMAL
 
 unsigned int timeoutDome = 45000; //Timeout ouverture dome en ms
 int tempoDelay = 2000; //Durée de l'impulsion des relais 13 et 14 miliseconde
 
 #ifdef WIFI
-const char* ssid     = "Bbox-EXT";                          //SSID de votre box
-const char* password = "lucieclaradelphinecedric";          //Mote de passe de votre box
+const char* ssid     = "SSID";                          //SSID de votre box
+const char* password = "MotDePasse";          //Mote de passe de votre box
 #endif
 
 #ifdef ETHERNET
