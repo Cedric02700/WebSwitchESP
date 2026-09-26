@@ -1,2 +1,0 @@
-Penser a retirer toutes traces d'installation du repertoire:
-C:\Program Files (x86)\Common Files\ASCOM\Switch
